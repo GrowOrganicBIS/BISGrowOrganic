@@ -1,0 +1,12 @@
+.table-row-cell:empty {
+    -fx-background-color: #c0c0c0;
+    -fx-border-color: grey
+}
+
+.table-row-cell:hover{
+    -fx-background-color:  #1E90FF;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: orangered;
+}
