@@ -198,7 +198,7 @@ public class DatabaseScreen extends Application {
                 add(DatabaseScreen.class.getResource("../css/DatabaseScreen.css").toExternalForm());
 
         //Optional to display the gridlines which is useful for debugging
-        Scene scene = new Scene(boarderPane, 950, 550);
+        Scene scene = new Scene(boarderPane, 915, 540);
         primaryStage.setScene(scene);
         primaryStage.show();
 
