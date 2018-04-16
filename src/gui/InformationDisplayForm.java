@@ -146,7 +146,7 @@ public class InformationDisplayForm extends Application {
         boarderPane.getStylesheets().
                 add(InformationDisplayForm.class.getResource("../css/LoginProtoType.css").toExternalForm());
 
-        Scene scene = new Scene(boarderPane, 840, 550);
+        Scene scene = new Scene(boarderPane, 840, 555);
         stage.setScene(scene);
         stage.show();
 
